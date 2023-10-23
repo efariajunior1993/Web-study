@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Sacramento&family=Sofia&display=swap');
+
+:root{
+    --cor-primaria: #F8E8EE;
+    --cor-secundaria: #F9F5F6;
+    --cor-slogan: black;
+    --cor-fundobotoes: #FFCACC;
+    --cor-bordabotoes: salmon;
+    --cor-textobotoes: #7895B2;
+    --cor-fundobotoeshover: #d17679;
+    --cor-textobotoeshover: #000000;
+    /*--cor-primaria: #89B5AF;
+    --cor-secundaria: #D1E8E4;
+    --cor-slogan: black;
+    --cor-fundobotoes: #D3E4CD;
+    --cor-bordabotoes: #87AAAA;
+    --cor-textobotoes: #272727;
+    --cor-fundobotoeshover: #96C7C1;
+    --cor-textobotoeshover: #272727;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+
+.slogan{
+    color: var(--cor-slogan);
+    font-size: 48px;
+    font-family: 'Sacramento', cursive;
+}
+
+body{
+    background-color: var(--cor-secundaria);
+}
+
+main{
+    text-align: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.home {
+    text-align:center;
+    padding-top: 50px;
+}
+
+.botao__home{
+    background-color: var(--cor-fundobotoes);
+    padding: 10px 20px;
+    border: 1px solid var(--cor-bordabotoes);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+    color: var(--cor-textobotoes);
+    font-size: 24px;
+    font-family: 'Sofia', cursive;
+
+}
+.botao__home:hover{
+    background-color: var(--cor-fundobotoeshover);
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 1s;
+    color: var(--cor-textobotoeshover);
+    font-size: 24px;
+    font-family: 'Sofia', cursive;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 300px;
+}
+
+.menu__botoes{
+    background-color: var(--cor-fundobotoes);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid var(--cor-bordabotoes);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+    color: var(--cor-textobotoes);
+    font-size: 24px;
+    font-family: 'Sofia', cursive;
+}
+
+.menu__botoes:hover{
+    background-color: var(--cor-fundobotoeshover);
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 1s;
+    color: var(--cor-textobotoeshover);
+    font-size: 24px;
+    font-family: 'Sofia', cursive;
+}
+
